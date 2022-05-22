@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fbody;
+}
+body{
+    background-color: $fondo !important;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,li{
+    list-style: none !important;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none !important;
+    font-family: $ftitle;
+    font-size: 1rem;
+    color: white !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $ftitle;
+
+}
+
+p{
+
+    font-size: 1rem;
+    font-family: $fbody;
+    font-weight: 300;
+}
+
+

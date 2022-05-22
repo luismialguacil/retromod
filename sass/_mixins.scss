@@ -1,0 +1,62 @@
+@mixin flex($jc:center,$ai:center,$fw:wrap,$fd:row) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw;
+    flex-direction: $fd;
+}
+
+%flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin caja($ancho:100%, $alto:100vh) {
+    width: $ancho;
+    min-height: $alto;
+}
+
+@mixin border($tipo:solid, $tam:1px, $color:#000) {
+    border: $tipo $tam $color;
+}
+@mixin upperline($wid,$hei,$bgcol){
+    content: "";
+    display: block;
+    width: $wid;
+    height: $hei;
+    background-color: $bgcol;
+    margin: auto;
+}
+
+
+// $lista :max-width min-width;
+@mixin media($tam, $m:max) {
+    @media screen and (#{$m}-width:$tam) {
+        @content;
+    }
+}
+
+
+@mixin fondo($url, $posx:center, $posy:center) {
+    background: url($url) no-repeat $posx $posy / cover;
+
+}
+
+@mixin boton($fondo, $color:#fff, $rad:$base) {
+    display: inline-block;
+    background-color: $fondo;
+    color: $color;
+    border-radius:$rad;
+}
+
+@mixin iconos($ancho:25px,$alto:25px,$fondo:$azulMedio,$color:$blanco,$fontSize:$base) {
+    @include caja($ancho, $alto);
+    @include boton($fondo, $color);
+    border-radius: 50%;
+    // line height para que icono se quede igual de ancho que de alto
+    line-height: $alto;
+    text-align: center;
+    font-size: $fontSize;
+}

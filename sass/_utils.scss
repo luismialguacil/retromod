@@ -1,0 +1,50 @@
+$espacios: (mt:margin-top,
+    mr:margin-right,
+    mb:margin-bottom,
+    ml:margin-left,
+    pt:padding-top,
+    pr:padding-right,
+    pb:padding-bottom,
+    pl:padding-left,
+    m:margin,
+    p:padding);
+
+
+    // si $i que puede ser cualquiera de los espacios mr, ml, va desde 1 hasta 20
+@for $i from 1 through $baseEspacios {
+
+    @each $clave,
+    $valor in $espacios {
+        .#{$clave}-#{$i} {
+            #{$valor}: $i*$baseEspacios*1px/2;
+        }
+    }
+}
+
+
+
+$margenX: mx;
+
+@for $i from 6 through $baseEspacios {
+
+    @each $clave in $margenX {
+        .#{$clave}-#{$i} {
+            margin-left: $i*$baseEspacios*1px/2;
+            margin-right: $i*$baseEspacios*1px/2;
+        }
+    }
+
+}
+
+  
+// TODO: PENDIENTE
+.sombra {
+    background-color: $blanco;
+    box-shadow: $sombra;
+    min-height: $base*60;
+    border-radius: $base;
+    padding: $base*4;
+    margin-bottom: $base*4;
+    // @include flex($jc:null, $ai:flex-start, $fw:null, $fd:null);
+}
+ 
