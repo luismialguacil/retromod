@@ -669,19 +669,65 @@ section#register{
     }
 }
 section#workshop{
-    text-align: center;
     padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
     h1{
-    padding-top: 50px;
+    
       color: $blanco;
       font-size: 2.5rem;
       font-weight: 700;
       text-shadow: 3px 3px 0 $rosa;
-      margin-bottom: 100px;
+      text-align: center;
     }
+    .form-select{
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px 5px 20px 5px;
+        background-color: $fondo;
+        background-image: url('../img/fi-br-angle-small-down.png');
+        width: auto;
+        padding: 5px 40px 5px 20px;
+        font-family: $ftitle;
+        option{
+            font-family: $ftitle;
+        }
+    }
+    i{
+        color: white;
+        margin-left: 10px;
+    }
+    .form-wrap{
+        
+        padding: 5px 0px;
+        font-family: $ftitle;
+        justify-content: end;
+        align-items: center;
+        text-align: right;
+    }
+    form{
+        border-bottom: 1px solid white;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+    }
+    .search{
+        text-align: end;
+        background: none;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: $ftitle;
+        max-width: 80%;
+        
+    }
+    
     .descargable{
         max-width: 1000px;
-        min-width: 600px;
+        min-width: 45%;
         height: 400px;
         padding: 0;
         background-color: rgba($color: #000000, $alpha: 1.0);

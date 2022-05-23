@@ -5,9 +5,41 @@
 <section id="workshop">
     <h1>Workshop</h1>
 <div class="container">
-
+<div class="row my-5 gy-3">
+<div class="col d-flex justify-content-center justify-content-md-start text-center">
+    <div class="row gy-2 d-flex justify-content-center">
+    <div class="col-12 col-lg-6 d-flex justify-content-center">
+<select class="form-select me-lg-2">
+  <option selected>Todas las categorías</option>"
+  <option value="1">Impresiones</option>
+  <option value="2">Figuras</option>
+  <option value="3">Modelos 3D</option>
+  <option value="4">Mods</option>
+</select>
+</div>
+<div class="col-12 col-lg-6 d-flex justify-content-center">
+<select class="form-select">
+  <option selected>Todas las categorías</option>"
+  <option value="1">Impresiones</option>
+  <option value="2">Figuras</option>
+  <option value="3">Modelos 3D</option>
+  <option value="4">Mods</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col d-flex justify-content-center justify-content-lg-end">
+    <div class="form-wrap">
+        <form>
+            <input type="text" class="search" placeholder="Buscar...">
+            <i class="bi bi-search"></i>
+        </form>
+        
+    </div>
+</div>
+</div>
                 <div class="row m-0 d-flex justify-content-center">
-                    <div class="col-12 col-lg img1 descargable m-2">
+                    <div class="col-12 col-md img1 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Game Boy Stand</h4>
@@ -20,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img2 descargable m-2">
+                    <div class="col-12 col-md img2 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Pokeball Cardtrige holder</h4>
@@ -33,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img1 descargable m-2">
+                    <div class="col-12 col-md img1 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Game Boy Stand</h4>
@@ -46,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img2 descargable m-2">
+                    <div class="col-12 col-md img2 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Pokeball Cardtrige holder</h4>
@@ -59,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img1 descargable m-2">
+                    <div class="col-12 col-md img1 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Game Boy Stand</h4>
@@ -72,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img2 descargable m-2">
+                    <div class="col-12 col-md img2 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Pokeball Cardtrige holder</h4>
@@ -85,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img1 descargable m-2">
+                    <div class="col-12 col-md img1 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Game Boy Stand</h4>
@@ -98,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img2 descargable m-2">
+                    <div class="col-12 col-md img2 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Pokeball Cardtrige holder</h4>
@@ -111,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img1 descargable m-2">
+                    <div class="col-12 col-md img1 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Game Boy Stand</h4>
@@ -124,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg img2 descargable m-2">
+                    <div class="col-12 col-md img2 descargable m-2">
                         <div class="info-descargable">
                             <div>
                                 <a href="#"><h4>3D printed Pokeball Cardtrige holder</h4>

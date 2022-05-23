@@ -7,7 +7,7 @@
                         <button class="navbar-toggler ml-3 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="bi bi-x-lg"></span>
                         </button>
-                        <a href="#" class="active-page">Inicio</a>
+                        <a href="index.php" class="active-page">Inicio</a>
                         <a href="#">Guías y Mods</a>
                         <a href="#">Noticias</a>
                         <a href="workshop.php">Workshop</a>

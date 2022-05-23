@@ -1217,18 +1217,54 @@ section#register {
         background-color: #C72E6E; }
 
 section#workshop {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 100px 0; }
+  flex-direction: column; }
   section#workshop h1 {
-    padding-top: 50px;
     color: #fff;
     font-size: 2.5rem;
     font-weight: 700;
     text-shadow: 3px 3px 0 #ff0099;
-    margin-bottom: 100px; }
+    text-align: center; }
+  section#workshop .form-select {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px 5px 20px 5px;
+    background-color: #151A29;
+    background-image: url("../img/fi-br-angle-small-down.png");
+    width: auto;
+    padding: 5px 40px 5px 20px;
+    font-family: "Outfit", sans-serif; }
+    section#workshop .form-select option {
+      font-family: "Outfit", sans-serif; }
+  section#workshop i {
+    color: white;
+    margin-left: 10px; }
+  section#workshop .form-wrap {
+    padding: 5px 0px;
+    font-family: "Outfit", sans-serif;
+    justify-content: end;
+    align-items: center;
+    text-align: right; }
+  section#workshop form {
+    border-bottom: 1px solid white;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right; }
+  section#workshop .search {
+    text-align: end;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    max-width: 80%; }
   section#workshop .descargable {
     max-width: 1000px;
-    min-width: 600px;
+    min-width: 45%;
     height: 400px;
     padding: 0;
     background-color: black;
