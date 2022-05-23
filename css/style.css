@@ -699,7 +699,8 @@ p {
   padding: 40px;
   margin-bottom: 40px; }
 
-html, main {
+html,
+main {
   width: 100% !important; }
 
 header {
@@ -721,7 +722,9 @@ header {
       color: white !important; }
   header nav .logo {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    max-width: 120px;
+    padding: 10px 0; }
   header nav .log {
     display: flex;
     justify-content: flex-end;
@@ -797,7 +800,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    padding: 20PX;
+    padding: 20px;
     line-height: 50px; }
     .menu .icons a:hover {
       background-color: #C72E6E; }
@@ -1114,7 +1117,12 @@ section#login {
   section#login form {
     display: flex;
     flex-direction: column; }
-    section#login form input#login, section#login form input#password, section#login form #pass, section#login form #pass2, section#login form #user, section#login form #email {
+    section#login form input#login,
+    section#login form input#password,
+    section#login form #pass,
+    section#login form #pass2,
+    section#login form #user,
+    section#login form #email {
       background: none;
       border: none;
       border-bottom: 2px solid white;
@@ -1189,7 +1197,12 @@ section#register {
   section#register form {
     display: flex;
     flex-direction: column; }
-    section#register form input#login, section#register form input#password, section#register form #pass, section#register form #pass2, section#register form #user, section#register form #email {
+    section#register form input#login,
+    section#register form input#password,
+    section#register form #pass,
+    section#register form #pass2,
+    section#register form #user,
+    section#register form #email {
       background: none;
       border: none;
       border-bottom: 2px solid white;
@@ -1216,20 +1229,22 @@ section#register {
       section#register form input.submit:hover {
         background-color: #C72E6E; }
 
-section#workshop {
+section#workshop,
+section#noticias {
   padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column; }
-  section#workshop h1 {
+  section#workshop h1,
+  section#noticias h1 {
     color: #fff;
     font-size: 2.5rem;
     font-weight: 700;
     text-shadow: 3px 3px 0 #ff0099;
     text-align: center; }
-  section#workshop .form-select {
+  section#workshop .form-select,
+  section#noticias .form-select {
     color: white;
     border: 1px solid white;
     border-radius: 5px 5px 20px 5px;
@@ -1238,23 +1253,28 @@ section#workshop {
     width: auto;
     padding: 5px 40px 5px 20px;
     font-family: "Outfit", sans-serif; }
-    section#workshop .form-select option {
+    section#workshop .form-select option,
+    section#noticias .form-select option {
       font-family: "Outfit", sans-serif; }
-  section#workshop i {
-    color: white;
-    margin-left: 10px; }
-  section#workshop .form-wrap {
+  section#workshop .form-wrap,
+  section#noticias .form-wrap {
     padding: 5px 0px;
     font-family: "Outfit", sans-serif;
     justify-content: end;
     align-items: center;
     text-align: right; }
-  section#workshop form {
+    section#workshop .form-wrap i,
+    section#noticias .form-wrap i {
+      color: white;
+      margin-left: 10px; }
+  section#workshop form,
+  section#noticias form {
     border-bottom: 1px solid white;
     justify-content: flex-end;
     align-items: center;
     text-align: right; }
-  section#workshop .search {
+  section#workshop .search,
+  section#noticias .search {
     text-align: end;
     background: none;
     border: none;
@@ -1262,7 +1282,8 @@ section#workshop {
     color: white;
     font-family: "Outfit", sans-serif;
     max-width: 80%; }
-  section#workshop .descargable {
+  section#workshop .descargable,
+  section#noticias .descargable {
     max-width: 1000px;
     min-width: 45%;
     height: 400px;
@@ -1272,13 +1293,16 @@ section#workshop {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end; }
-  section#workshop .img1 {
+  section#workshop .img1,
+  section#noticias .img1 {
     background: url(../img/stand.png) center center no-repeat;
     background-size: cover; }
-  section#workshop .img2 {
+  section#workshop .img2,
+  section#noticias .img2 {
     background: url(../img/ballcard.png) center center no-repeat;
     background-size: cover; }
-  section#workshop .info-descargable {
+  section#workshop .info-descargable,
+  section#noticias .info-descargable {
     display: flex;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.5);
@@ -1288,9 +1312,11 @@ section#workshop {
     justify-content: space-between;
     align-items: center;
     color: black; }
-    section#workshop .info-descargable h4 {
+    section#workshop .info-descargable h4,
+    section#noticias .info-descargable h4 {
       font-weight: 700; }
-    section#workshop .info-descargable .rounded-button {
+    section#workshop .info-descargable .rounded-button,
+    section#noticias .info-descargable .rounded-button {
       width: 60px;
       height: 60px;
       background-color: rgba(255, 255, 255, 0.5);
@@ -1298,15 +1324,21 @@ section#workshop {
       border-radius: 50%;
       justify-content: center;
       align-items: center; }
-      section#workshop .info-descargable .rounded-button:hover {
+      section#workshop .info-descargable .rounded-button:hover,
+      section#noticias .info-descargable .rounded-button:hover {
         background-color: #ff0099; }
-        section#workshop .info-descargable .rounded-button:hover i {
-          color: #fff !important; }
-      section#workshop .info-descargable .rounded-button i {
+        section#workshop .info-descargable .rounded-button:hover i,
+        section#noticias .info-descargable .rounded-button:hover i {
+          color: #fff !important;
+          margin: 0;
+          padding: 0; }
+      section#workshop .info-descargable .rounded-button i,
+      section#noticias .info-descargable .rounded-button i {
         color: #000;
         font-weight: bold;
         font-size: 20px; }
-  section#workshop .page-item {
+  section#workshop .page-item,
+  section#noticias .page-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1314,7 +1346,8 @@ section#workshop {
     margin: 0 5px;
     min-width: 40px;
     min-height: 40px; }
-  section#workshop .page-link {
+  section#workshop .page-link,
+  section#noticias .page-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1325,5 +1358,93 @@ section#workshop {
     line-height: 0;
     border-radius: 500px;
     border: 1px solid lightgrey !important; }
-  section#workshop .active {
+    section#workshop .page-link:hover,
+    section#noticias .page-link:hover {
+      background: #ff0099 !important; }
+  section#workshop .active,
+  section#noticias .active {
     background: #ff0099 !important; }
+
+.workshop-item-wrap {
+  padding: 100px 0;
+  color: white; }
+  .workshop-item-wrap .img-wrap {
+    background: url(../img/stand.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 10px 10px 30px 10px; }
+  .workshop-item-wrap p {
+    font-size: 0.9rem;
+    margin: 30px 0; }
+  .workshop-item-wrap .rounded-button {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; }
+    .workshop-item-wrap .rounded-button:hover {
+      background-color: #ff0099; }
+      .workshop-item-wrap .rounded-button:hover i {
+        color: #fff !important;
+        margin: 0;
+        padding: 0; }
+    .workshop-item-wrap .rounded-button i {
+      color: #000;
+      font-weight: bold;
+      font-size: 20px; }
+  .workshop-item-wrap .info-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+
+.perfil {
+  padding: 100px 0; }
+  .perfil span.name {
+    color: #ff0099;
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif; }
+  .perfil span.id {
+    color: white;
+    font-size: 1rem; }
+  .perfil h5 {
+    margin-top: 8px;
+    color: white;
+    font-size: 1rem; }
+  .perfil .image-col {
+    display: flex;
+    justify-content: end;
+    align-items: start; }
+  .perfil .img-wrap {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    margin-left: 50px; }
+    .perfil .img-wrap img {
+      border-radius: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center; }
+    .perfil .img-wrap .fix {
+      color: white;
+      float: right; }
+  .perfil .mi-workshop {
+    margin-top: 20px;
+    height: 50vh;
+    background-color: #0B0314;
+    border-radius: 10px 10px 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; }
+  .perfil h4 {
+    margin-top: 50px;
+    color: white; }
+  .perfil .bi-plus-lg {
+    color: white;
+    font-size: 4rem; }
