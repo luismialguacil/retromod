@@ -1081,7 +1081,7 @@ section#login {
   section#login .row {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: flex-end; }
     section#login .row .acceso {
       display: flex;
       flex-direction: column;
@@ -1161,7 +1161,7 @@ section#register {
   section#register .row {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: flex-end; }
     section#register .row .acceso {
       display: flex;
       flex-direction: column;
@@ -1417,13 +1417,11 @@ section#noticias {
     font-size: 1rem; }
   .perfil .image-col {
     display: flex;
-    justify-content: end;
-    align-items: start; }
+    justify-content: flex-end; }
   .perfil .img-wrap {
-    position: relative;
     width: 75px;
     height: 75px;
-    margin-left: 50px; }
+    margin-right: 20px; }
     .perfil .img-wrap img {
       border-radius: 100%;
       height: 100%;

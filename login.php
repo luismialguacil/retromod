@@ -3,11 +3,11 @@
 <?php include_once('header.php'); ?>
 
 <main>
-    <section id="login">
+    <section id="login" class="h-100">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-lg-6 order-2 order-lg-1 h-100 d-flex log-img">
                     <img src="img/console.png" alt="">
                 </div>
                 <div class="col-12 col-lg-6 order-1 order-lg-2 p-5">
