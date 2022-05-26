@@ -12,7 +12,7 @@
         <div class="col info-perfil">
             <span class="name">Luis Miguel Alguacil</span>
             <h5>ID usuario:</h5>
-            <span class="id">6382337891</span>
+            <span class="id">6382337891 <a href=""><i class="bi bi-clipboard"></a></i></span>
         </div>
     </div>
 

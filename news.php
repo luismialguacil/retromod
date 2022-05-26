@@ -43,10 +43,10 @@
                     <div class="d-flex noticia p-0 container">
                         <div class="row">
                             <div class="col col-lg d-none d-xxl-block not-img">
-                                <a href="#"><img src="img/funkey.png" alt=""></a>
+                                <a href="noticia.php"><img src="img/funkey.png" alt=""></a>
                             </div>
                             <div class="col col-lg not-text">
-                                <a href="#"><img src="img/funkey.png" alt="" class="mb-5 d-xxl-none"></a>
+                                <a href="noticia.php"><img src="img/funkey.png" alt="" class="mb-5 d-xxl-none"></a>
                                 <a href="">
                                     <h4>FunKey Proyect empieza a producirse</h3>
                                 </a>

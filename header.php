@@ -10,7 +10,7 @@
                             <span class="bi bi-x-lg"></span>
                         </button>
                         <a href="index.php" class="active-page">Inicio</a>
-                        <a href="#">Guías y Mods</a>
+                        <a href="mod.php">Guías y Mods</a>
                         <a href="news.php">Noticias</a>
                         <a href="workshop.php">Workshop</a>
 

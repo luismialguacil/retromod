@@ -23,7 +23,7 @@
                             <input type="submit" class="fadeIn fourth submit" value="Registrarse">
                         </form>
                         <div class="acceso">
-                            <a href="#" class="reg">¿Ya tienes cuenta?<i class="bi bi-arrow-right"></i></a>
+                            <a href="login.php" class="reg">¿Ya tienes cuenta?<i class="bi bi-arrow-right"></i></a>
                             <small class="access">o registrate con</small>
                             <div>
                                 <a href="#"><i class="bi bi-google"></i></a>

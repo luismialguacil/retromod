@@ -16,7 +16,7 @@
                     <h1>Nueva vida a<br>tus consolas<br><span>favoritas</span></h1>
                     <div class="d-flex justify-content-center justify-content-lg-start"><span class="separador"></span>
                     </div>
-                    <a href="#" class="btn-rosa1">Comienza a modear</a>
+                    <a href="mod.php" class="btn-rosa1">Comienza a modear</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <a href="#" class="btn-rosa1">Ver todo modding</a>
+                    <a href="mod.php" class="btn-rosa1">Ver todo modding</a>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 info-image">
-                    <img src="img/gbc.png" alt="">
+                    <img src="img/gameboyc.png" alt="">
                 </div>
                 <div class="col-12 col-lg-6 main-text">
                     <h3>¿Qué es RetroMod?</h3>
@@ -113,7 +113,7 @@
             </div>
             <div class="row pt-5">
                 <div class="col mt-5">
-                    <a href="#" class="btn-rosa1">Ver todo descargables</a>
+                    <a href="workshop.php" class="btn-rosa1">Ver todo descargables</a>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="col text-center margencito">
-                <a href="#" class="btn-rosa1 ">Ver todas las noticias</a>
+                <a href="news.php" class="btn-rosa1 ">Ver todas las noticias</a>
             </div>
         </div>
     </section>

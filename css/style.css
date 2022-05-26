@@ -978,8 +978,7 @@ section#descargables {
         font-size: 20px; }
 
 section#noticias {
-  padding: 100px 0;
-  background-color: #0B0314; }
+  padding: 100px 0; }
   section#noticias h3 {
     color: #fff;
     text-align: center;
@@ -988,7 +987,7 @@ section#noticias {
     text-shadow: 3px 3px 0 #ff0099;
     margin-bottom: 100px; }
   section#noticias .noticia {
-    background-color: #151A29;
+    background-color: #0B0314;
     border-radius: 15px 10px 30px 15px;
     display: flex;
     justify-content: center; }
@@ -1403,7 +1402,8 @@ section#noticias {
     flex-direction: column; }
 
 .perfil {
-  padding: 100px 0; }
+  padding: 100px 0;
+  margin-top: 50px; }
   .perfil span.name {
     color: #ff0099;
     font-size: 1.5rem;
@@ -1446,3 +1446,139 @@ section#noticias {
   .perfil .bi-plus-lg {
     color: white;
     font-size: 4rem; }
+
+#consolas {
+  padding: 100px 0; }
+  #consolas h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 3px 3px 0 #ff0099;
+    text-align: center; }
+  #consolas .brand-title {
+    margin: 30px 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold; }
+  #consolas img {
+    max-height: 200px; }
+  #consolas .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px 10px 30px 10px;
+    margin: 10px 0;
+    margin-right: 20px;
+    padding: 20px;
+    aspect-ratio: 1/1; }
+    #consolas .card h3 {
+      text-transform: uppercase;
+      margin-top: 20px;
+      color: #000;
+      text-align: center;
+      font-size: 1.2rem !important;
+      font-weight: bold; }
+  #consolas .container {
+    position: relative; }
+
+#guides {
+  padding: 100px 0; }
+  #guides .row {
+    display: flex;
+    justify-content: center; }
+    #guides .row .guide-item {
+      display: flex;
+      align-items: center;
+      border: 1px solid white;
+      color: white;
+      border-radius: 10px 10px 30px 10px;
+      margin-bottom: 30px; }
+      #guides .row .guide-item h4 {
+        margin: 0 20px; }
+      #guides .row .guide-item a {
+        display: flex;
+        align-items: center; }
+  #guides h2 {
+    color: white; }
+    #guides h2 span {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      color: #ff0099; }
+  #guides .form-wrap {
+    padding: 5px 0px;
+    font-family: "Outfit", sans-serif;
+    justify-content: end;
+    align-items: center;
+    text-align: right; }
+    #guides .form-wrap i {
+      color: white;
+      margin-left: 10px; }
+  #guides form {
+    border-bottom: 1px solid white;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding: 10px 0; }
+  #guides .search {
+    text-align: end;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    max-width: 80%; }
+  #guides h3 {
+    color: white;
+    margin: 30px 0; }
+  @media screen and (max-width: 500px) {
+    #guides h4 {
+      font-size: 1rem; } }
+
+#guia {
+  padding: 100px 0;
+  color: white; }
+  #guia .row {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #guia h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 40px 0; }
+    #guia h2 span {
+      color: #ff0099;
+      font-family: "Outfit", sans-serif; }
+  #guia button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0099 !important;
+    border-radius: 500px;
+    padding: 10px;
+    width: 40px;
+    height: 40px; }
+    #guia button span i {
+      line-height: 0px; }
+
+#noticia {
+  padding: 100px 0;
+  color: white;
+  overflow: hidden; }
+  #noticia .sidebar {
+    background-color: #0B0314 !important;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 100px; }
+    #noticia .sidebar img {
+      border-radius: 10px; }
+  #noticia h3 {
+    color: white;
+    font-size: 1.5rem; }
+    #noticia h3 span {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      color: #ff0099; }
+  #noticia .la-noticia p {
+    margin: 50px 0; }

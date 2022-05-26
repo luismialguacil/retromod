@@ -39,8 +39,12 @@
 
     </div>
 </footer>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/script.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/app.js"></script>
+<script src="js/glider.min.js"></script>
+
 </body>
 
 </html>

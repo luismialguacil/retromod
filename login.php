@@ -21,7 +21,7 @@
                             <input type="submit" class="fadeIn fourth submit" value="Log In">
                         </form>
                         <div class="acceso">
-                            <a href="#" class="reg">¿No tienes cuenta? Registrate<i class="bi bi-arrow-right"></i></a>
+                            <a href="register.php" class="reg">¿No tienes cuenta? Registrate<i class="bi bi-arrow-right"></i></a>
                             <small class="access">o accede con</small>
                             <div>
                                 <a href="#"><i class="bi bi-google"></i></a>
