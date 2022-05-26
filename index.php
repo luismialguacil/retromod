@@ -30,7 +30,7 @@
             </div>
             <div class="row card-wrapper g-4">
                 <div class="col-5 col-lg cardridge ml-0">
-                    <a href="#"><img src="img/game boy.png" alt="">
+                    <a href="guidelist.php"><img src="img/game boy.png" alt="">
                         <h2>Game Boy</h2>
                     </a>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="col-12 col-xl descargable m-2">
                     <div class="info-descargable">
                         <div>
-                            <a href="#">
+                            <a href="workshop-item.php">
                                 <h4>3D printed Game Boy Stand</h4>
                                 <small>por Lucas Vallejo</small>
                             </a>
@@ -125,11 +125,11 @@
                 <div class="d-flex noticia p-0 container">
                     <div class="row">
                         <div class="col col-lg d-none d-xxl-block not-img">
-                            <a href="#"><img src="img/funkey.png" alt=""></a>
+                            <a href="noticia.php"><img src="img/funkey.png" alt=""></a>
                         </div>
                         <div class="col col-lg not-text">
-                            <a href="#"><img src="img/funkey.png" alt="" class="mb-5 d-xxl-none"></a>
-                            <a href="">
+                            <a href="noticia.php"><img src="img/funkey.png" alt="" class="mb-5 d-xxl-none"></a>
+                            <a href="noticia.php">
                                 <h4>FunKey Proyect empieza a producirse</h3>
                             </a>
                             <p>Bautizada como Game Boy Chain, esta consola es en realidad un rediseño de Nintendo GBA.
