@@ -858,6 +858,8 @@ section#modding {
     font-weight: 700;
     text-shadow: 3px 3px 0 #ff0099;
     margin-bottom: 100px; }
+  section#modding .cardridge img {
+    max-height: 170px; }
   section#modding .cardridge:hover {
     filter: drop-shadow(10px 10px 0 #ff0099); }
   section#modding .cardridge a {

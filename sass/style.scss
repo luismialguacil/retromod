@@ -200,6 +200,9 @@ section#modding {
     text-shadow: 3px 3px 0 $rosa;
     margin-bottom: 100px;
   }
+  .cardridge img{
+    max-height: 170px;
+  }
   .cardridge:hover {
     filter: drop-shadow(10px 10px 0 $rosa);
   }

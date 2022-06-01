@@ -130,16 +130,9 @@
                         <div class="col col-lg not-text">
                             <a href="noticia.php"><img src="img/funkey.png" alt="" class="mb-5 d-xxl-none"></a>
                             <a href="noticia.php">
-                                <h4>FunKey Proyect empieza a producirse</h3>
+                                <h4>FunKey Proyect empieza a producirse</h4>
                             </a>
-                            <p>Bautizada como Game Boy Chain, esta consola es en realidad un rediseño de Nintendo GBA.
-                                Sin emba... Bautizada como Game Boy Macro, esta consola es en realidad un rediseño de
-                                Nintendo DS. Sin embargo, su apariencia ha sido modificada hasta convertirse en una
-                                consola de una única pantalla semejante a la Game Boy Micro. El creativo sólo tiene que
-                                eliminar la pantalla de arriba de la consola, ajustar los altavoces y retocar un poco el
-                                diseño. El resultado de este pro... Bautizada como Game Boy Macro, esta consola es en
-                                realidad un rediseño de Nintendo DS. Sin embargo, su apariencia ha sido modificada hasta
-                                convertirse... </p>
+                            <p>Bautizada como Game Boy Chain, esta consola es en realidad un rediseño de Nintendo GBA. Sin emba... Bautizada como Game Boy Macro, esta consola es en realidad un rediseño de Nintendo DS. Sin embargo, su apariencia ha sido modificada hasta convertirse en una consola de una única pantalla semejante a la Game Boy Micro. El creativo sólo tiene que eliminar la pantalla de arriba de la consola, ajustar los altavoces y retocar un poco el diseño. El resultado de este pro... Bautizada como Game Boy Macro, esta consola es en realidad un rediseño de Nintendo DS. Sin embargo, su apariencia ha sido modificada hasta convertirse... </p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +146,7 @@
                         <div class="col col-lg not-text">
                             <a href="#"><img src="img/gbzero.png" alt="" class="mb-5 d-xxl-none"></a>
                             <a href="">
-                                <h4>Game Boy Zero comienza a llegar</h3>
+                                <h4>Game Boy Zero comienza a llegar</h4>
                             </a>
                             <p>Bautizada como Game Boy Chain, esta consola es en realidad un rediseño de Nintendo GBA.
                                 Sin emba... Bautizada como Game Boy Macro, esta consola es en realidad un rediseño de
